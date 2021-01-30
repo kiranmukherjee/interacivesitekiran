@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <title>Project 3: Interactive Site - Kiran Mukherjee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100;400&display=swap" >
+    <style> 
+        body h1,h2,h3,h4,h5,h6 {font-family: 'Fraunces', serif;} 
+    </style>  
+          
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Project 3: Interactive Site - Kiran Mukherjee</title>
-        <link rel="stylesheet" href="styles.css">
-
+        <div>
+            <h1>IS THIS ART? </h1>
+        </div>
     </head>
     <body>
-        <div class="example-parent">
-            <div class="example-origin">
+        <div class="container">
+            <div class="box">
+                <div class="yes">
+                    <h2>Yes</h2>                    
+                </div>
+                <div
+                class="dropzone"
+                ondragover="onDragOver(event);"
+                ondrop="onDrop(event);"
+                >
+                </div>
+            </div>
+            <div class="box"> 
+                <div class="no">
+                    <h2>No</h2>                    
+                </div>
+                <div
+                class="dropzone"
+                ondragover="onDragOver(event);"
+                ondrop="onDrop(event);"
+                >
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="origin">
             <img 
                 src="https://edit.co.uk/uploads/2016/12/Image-1-Alternatives-to-stock-photography-Thinkstock.jpg"
                 id="draggable-1"
-                class="example-draggable"
+                class="draggable"
                 draggable="true"
                 ondragstart="onDragStart(event);"
-            >
-                draggable  
-            </div>
-        
-            <div
-            class="example-dropzone"
-            ondragover="onDragOver(event);"
-            ondrop="onDrop(event);"
-            >
-            dropzone
-            </div>
+            >  
+            </div>            
+
         </div>
     
 
