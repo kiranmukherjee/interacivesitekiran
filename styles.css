@@ -21,19 +21,21 @@ body {
 .container2 {
   border: dashed lightgrey;
   background-color: white;
-  height: 100%;  
+  width: 90%;  
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  margin-top: 5vh;
+  margin: auto;
+  margin-top: 7.5vh;
 }
 
 img{
-  max-width: 25vh;  
+  max-width: 22.5vh;  
 }
 
 img:hover {
-  transform: scale(2);
+  position: static;
+  transform: scale(2.5);
   display:block;
 
 }
@@ -64,6 +66,8 @@ img:hover {
 }
 
 .origin {
+  display: flex;
+  flex-flow: row wrap;
   flex-basis: 100%;
   flex-grow: 1;
   padding: 10px;
@@ -77,6 +81,9 @@ img:hover {
 }
   
 .dropzone {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   flex-basis: 100%;
   flex-grow: 1;
   padding: 10px;
