@@ -28,9 +28,10 @@ body {
   margin: auto;
   margin-top: 7.5vh;
 }
-
+   
 img{
-  max-width: 22.5vh;  
+  /* max-width: 22.5vh;   */
+  max-height: 25vh;
 }
 
 img:hover {
