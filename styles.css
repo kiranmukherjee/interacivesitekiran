@@ -35,9 +35,11 @@ img{
 }
 
 img:hover {
+  border: 2px dotted red;
   position: static;
-  transform: scale(2.5);
+  /* transform: scale(2.5); */
   display:block;
+  z-index: 999;
 
 }
 
