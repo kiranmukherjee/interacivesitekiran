@@ -21,12 +21,12 @@ body {
 .container2 {
   border: dashed darkgrey;
   background-color: white;
+  border-radius: 2vh;
   width: 90%;  
   display: flex;
   flex-flow: row wrap;
   margin: auto;
   margin-top: 7.5vh;
-  margin-bottom: 25vh;
 }
    
 img{
@@ -92,6 +92,27 @@ img:hover {
   flex-basis: 100%;
   flex-grow: 1;
   padding: 10px;
+  border: inset .5vh;
+  margin: 1vh;
+}  
+
+.container3 {
+  border: double darkgrey ;
+  background-color:#dee0e0;
+  width: 90%;  
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 7.5vh;
+  margin-bottom: 25vh;
+}
+
+.box2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: white;
   border: inset .5vh;
   margin: 1vh;
 }
